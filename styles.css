@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1100px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .imageContainer img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        td {
+            padding: 15px;
+            vertical-align: top;
+        }
+        td img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        td.textColumn {
+            width: 600px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        td.imageColumn {
+            width: 200px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+    
